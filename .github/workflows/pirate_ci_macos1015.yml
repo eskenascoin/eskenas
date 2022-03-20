@@ -1,13 +1,12 @@
 # we are using separate workflow because CI producing test binaries with CPPFLAGS=-DTESTMODE
 
-name: Pirate cli build - MacOS 10.15 Catalina
+name: Eskenas cli build - MacOS 10.15 Catalina
 
 
 on:
   push:
     branches:
-    - master
-    - beta
+    - eskenas
 
 
 jobs:
@@ -32,9 +31,9 @@ jobs:
       - name: Build (macOS)
         run: |
           ./zcutil/build-mac.sh -j4
-          zip --junk-paths pirate-osx src/pirated src/pirate-cli
-      - name: Upload pirate-osx.zip as artifact
+          zip --junk-paths eskenas-osx src/eskenasd src/eskenas-cli
+      - name: Upload eskenas-osx.zip as artifact
         uses: actions/upload-artifact@v1
         with:
-          name: pirate-osx
-          path: ./pirate-osx.zip
+          name: eskenas-osx
+          path: ./eskenas-osx.zip

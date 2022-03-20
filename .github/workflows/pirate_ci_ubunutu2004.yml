@@ -1,13 +1,12 @@
 # we are using separate workflow because CI producing test binaries with CPPFLAGS=-DTESTMODE
 
-name: Pirate cli build - Ubuntu 20.04
+name: ESkenas cli build - Ubuntu 20.04
 
 
 on:
   push:
     branches:
-    - master
-    - beta
+    - eskenas
 
 
 jobs:
@@ -40,9 +39,9 @@ jobs:
         if: runner.os == 'Linux'
         run: |
           ./zcutil/build.sh -j$(nproc)
-          zip --junk-paths pirate-linux src/pirated src/pirate-cli
-      - name: Upload pirate-linux.zip as artifact
+          zip --junk-paths eskenas-linux src/eskenasd src/eskenas-cli
+      - name: Upload eskenas-linux.zip as artifact
         uses: actions/upload-artifact@v1
         with:
-          name: pirate-linux
-          path: ./pirate-linux.zip
+          name: eskenas-linux
+          path: ./eskenas-linux.zip
