@@ -1236,12 +1236,16 @@ uint64_t komodo_ac_block_subsidy(int nHeight)
                 subsidy += (ASSETCHAINS_SUPPLY % 1000000000)*COIN + magicExtra;
         }
     }
-    else if ( nHeight == 1 )
+    else if ( nHeight == 1 && strcmp(ASSETCHAINS_SYMBOL,"ESKENAS") != 0)
     {
         if ( ASSETCHAINS_LASTERA == 0 )
-            subsidy = ASSETCHAINS_SUPPLY * SATOSHIDEN + magicExtra;
+            subsidy = ASSETCHAINS_SUPPLY * SATOSHIDEN + magicExtra;    
         else
             subsidy += ASSETCHAINS_SUPPLY * SATOSHIDEN + magicExtra;
+    }
+    else if ( nHeight == 65 && strcmp(ASSETCHAINS_SYMBOL,"ESKENAS") == 0)
+    {
+        subsidy += ASSETCHAINS_SUPPLY * SATOSHIDEN + magicExtra;
     }
     else if ( is_STAKED(ASSETCHAINS_SYMBOL) == 2 )
         return(0);
@@ -1333,6 +1337,7 @@ void komodo_args(char *argv0)
     SoftSetArg("-ac_end", std::string("525000,1050000,1575000,2100000,2625000,0"));
     SoftSetArg("-ac_halving", std::string("525100,525100,525100,525100,525100,525000"));
     SoftSetArg("-ac_private", std::string("1"));
+    SoftSetArg("-ac_cbmaturity", std::string("10"));
 
 
     //SoftSetArg("-addnode", std::string("zero.kolo.supernet.org"));
