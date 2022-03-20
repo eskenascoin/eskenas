@@ -1,8 +1,8 @@
-TESTS += pirate-test
-bin_PROGRAMS += pirate-test
+TESTS += eskenas-test
+bin_PROGRAMS += eskenas-test
 
 # tool for generating our public parameters
-pirate_test_SOURCES = \
+eskenas_test_SOURCES = \
 	test-komodo/main.cpp \
 	test-komodo/testutils.cpp \
 	test-komodo/test_cryptoconditions.cpp \
@@ -18,8 +18,8 @@ pirate_test_SOURCES = \
     test-komodo/test_events.cpp \
     test-komodo/test_hex.cpp
 
-pirate_test_CPPFLAGS = $(pirated_CPPFLAGS)
+eskenas_test_CPPFLAGS = $(eskenasd_CPPFLAGS)
 
-pirate_test_LDADD = -lgtest $(pirated_LDADD)
+eskenas_test_LDADD = -lgtest $(eskenasd_LDADD)
 
-pirate_test_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) -static
+eskenas_test_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) -static

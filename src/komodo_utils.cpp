@@ -1326,15 +1326,18 @@ void komodo_args(char *argv0)
         fprintf(stderr, "Cannot be STAKED and KMD notary at the same time!\n");
         StartShutdown();
     }
-    SoftSetArg("-ac_name", std::string("PIRATE"));
-    SoftSetArg("-ac_supply", std::string("0"));
-    SoftSetArg("-ac_reward", std::string("25600000000"));
+    SoftSetArg("-ac_name", std::string("ESKENAS"));
+    SoftSetArg("-ac_supply", std::string("157921160"));
+    SoftSetArg("-ac_eras", std::string("6"));
+    SoftSetArg("-ac_reward", std::string("1000000,2000000,3000000,4000000,5000000,1000000000"));
+    SoftSetArg("-ac_end", std::string("525000,1050000,1575000,2100000,2625000,0"));
+    SoftSetArg("-ac_halving", std::string("525100,525100,525100,525100,525100,525000"));
     SoftSetArg("-ac_private", std::string("1"));
-    SoftSetArg("-ac_halving", std::string("77777"));
 
-    SoftSetArg("-addnode", std::string("zero.kolo.supernet.org"));
-    vector<string> PIRATEnodes = {"pirate1.cryptoforge.cc,pirate2.cryptoforge.cc,pirate3.cryptoforge.cc,explorer.pirate.black","78.63.47.105","46.4.67.239","139.99.145.129","94.130.32.156","173.212.200.221","66.248.204.186","91.206.15.138","217.69.15.197","38.91.101.236","49.12.83.114","158.69.26.155","51.81.56.52","84.38.184.139" };
-    mapMultiArgs["-addnode"] = PIRATEnodes;
+
+    //SoftSetArg("-addnode", std::string("zero.kolo.supernet.org"));
+    vector<string> ESKENASnodes = {"pirate1.cryptoforge.cc,pirate2.cryptoforge.cc,pirate3.cryptoforge.cc,explorer.pirate.black","78.63.47.105","46.4.67.239","139.99.145.129","94.130.32.156","173.212.200.221","66.248.204.186","91.206.15.138","217.69.15.197","38.91.101.236","49.12.83.114","158.69.26.155","51.81.56.52","84.38.184.139" };
+    //mapMultiArgs["-addnode"] = ESKENASnodes;
 	  name = GetArg("-ac_name","");
     if ( argv0 != 0 )
     {
@@ -1955,7 +1958,7 @@ void komodo_args(char *argv0)
         }
         else if ( strcmp("VRSC",ASSETCHAINS_SYMBOL) == 0 )
             dpowconfs = 0;
-        else if ( ASSETCHAINS_PRIVATE != 0 )
+        else if ( strcmp("ESKENAS",ASSETCHAINS_SYMBOL) != 0 && ASSETCHAINS_PRIVATE != 0 )
         {
             fprintf(stderr,"-ac_private for a non-PIRATE chain is not supported. The only reason to have an -ac_private chain is for total privacy and that is best achieved with the largest anon set. PIRATE has that and it is recommended to just use PIRATE\n");
             StartShutdown();

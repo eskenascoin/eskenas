@@ -707,12 +707,12 @@ UniValue getblocktemplate(const UniValue& params, bool fHelp, const CPubKey& myp
     }
     if (Params().MiningRequiresPeers() && fvNodesEmpty)
     {
-        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "Pirate is not connected!");
+        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "Eskenas is not connected!");
     }
 
     // currently we have checkpoints only in KMD chain, so we checking IsInitialBlockDownload only for KMD itself
     if (ASSETCHAINS_SYMBOL[0] == 0 && IsInitialBlockDownload()) {
-        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "Pirate is downloading blocks...");
+        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "Eskenas is downloading blocks...");
     }
 
     static unsigned int nTransactionsUpdatedLast;

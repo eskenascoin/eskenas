@@ -186,7 +186,7 @@
            <bool>false</bool>
           </property>
           <property name="placeholderText">
-           <string>Steps to sign the transaction: Copy the complete transaction text in the text box above. Transfer the data to the computer that is running the off-line wallet, using a USB memory stick or other suitable media.  Select the 'Sign' menu option in the off-line wallet. In the sign dialog, paste the data into the text edit box marked: 'Unsigned transaction input'. Press the 'Sign transaction' button. If the signature was successfull, the raw hex transaction data will be displayed in the text box, starting with 'sendrawtransaction'. Copy that data, transfer it back to this on-line wallet and paste it into this text box. Press the 'Send transaction' button to submit the transaction to the PirateNetwork</string>
+           <string>Steps to sign the transaction: Copy the complete transaction text in the text box above. Transfer the data to the computer that is running the off-line wallet, using a USB memory stick or other suitable media.  Select the 'Sign' menu option in the off-line wallet. In the sign dialog, paste the data into the text edit box marked: 'Unsigned transaction input'. Press the 'Sign transaction' button. If the signature was successfull, the raw hex transaction data will be displayed in the text box, starting with 'sendrawtransaction'. Copy that data, transfer it back to this on-line wallet and paste it into this text box. Press the 'Send transaction' button to submit the transaction to the EskenasNetwork</string>
           </property>
          </widget>
         </item>

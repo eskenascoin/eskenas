@@ -1,4 +1,4 @@
-IDI_ICON1 ICON DISCARDABLE "icons/pirate.ico"
+IDI_ICON1 ICON DISCARDABLE "icons/eskenas.ico"
 IDI_ICON2 ICON DISCARDABLE "icons/komodo_testnet.ico"
 
 #include <windows.h>             // needed for VERSIONINFO
@@ -20,13 +20,13 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Pirate"
-            VALUE "FileDescription",    PACKAGE_NAME " (GUI node for Pirate)"
+            VALUE "CompanyName",        "Eskenas"
+            VALUE "FileDescription",    PACKAGE_NAME " (GUI node for Eskenas)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "PirateOceanGUI"
+            VALUE "InternalName",       "EskenasWallet"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "Pirate-qt-windows.exe"
+            VALUE "OriginalFilename",   "Eskenas-qt-windows.exe"
             VALUE "ProductName",        PACKAGE_NAME
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

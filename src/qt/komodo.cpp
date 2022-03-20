@@ -105,7 +105,7 @@ static void InitMessage(const std::string &message)
  */
 static std::string Translate(const char* psz)
 {
-    return QCoreApplication::translate("pirate-core", psz).toStdString();
+    return QCoreApplication::translate("eskenas-core", psz).toStdString();
 }
 
 static QString GetLangTerritory()
@@ -183,7 +183,7 @@ void DebugMessageHandler(QtMsgType type, const QMessageLogContext& context, cons
 }
 #endif
 
-/** Class encapsulating Pirate Core startup and shutdown.
+/** Class encapsulating Eskenas Core startup and shutdown.
  * Allows running startup and shutdown in a different thread from the UI thread.
  */
 class KomodoCore: public QObject
@@ -579,7 +579,7 @@ void KomodoApplication::initializeResult(bool success)
 
 #ifdef ENABLE_WALLET
         // Now that initialization/startup is done, process any command-line
-        // pirate: URIs or payment requests:
+        // eskenas: URIs or payment requests:
         connect(paymentServer, SIGNAL(receivedPaymentRequest(SendCoinsRecipient)),
                          window, SLOT(handlePaymentRequest(SendCoinsRecipient)));
         /*connect(paymentServer, SIGNAL(receivedZPaymentRequest(SendCoinsRecipient)),
@@ -602,7 +602,7 @@ void KomodoApplication::shutdownResult()
 
 void KomodoApplication::handleRunawayException(const QString &message)
 {
-    QMessageBox::critical(0, "Runaway exception", PirateOceanGUI::tr("A fatal error occurred. Pirate can no longer continue safely and will quit.") + QString("\n\n") + message);
+    QMessageBox::critical(0, "Runaway exception", PirateOceanGUI::tr("A fatal error occurred. Eskenas can no longer continue safely and will quit.") + QString("\n\n") + message);
     ::exit(EXIT_FAILURE);
 }
 
@@ -762,7 +762,7 @@ int main(int argc, char *argv[])
         exit(EXIT_SUCCESS);
 
     // Start up the payment server early, too, so impatient users that click on
-    // pirate: links repeatedly have their payment requests routed to this process:
+    // eskenas: links repeatedly have their payment requests routed to this process:
     app.createPaymentServer();
 #endif
 

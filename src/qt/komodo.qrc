@@ -23,7 +23,7 @@
     </qresource>
 
     <qresource prefix="/icons">
-        <file alias="komodo">res/icons/pirate.png</file>
+        <file alias="komodo">res/icons/eskenas.png</file>
         <file alias="address-book">res/icons/address-book.png</file>
         <file alias="quit">res/icons/quit.png</file>
         <file alias="send">res/icons/send.png</file>

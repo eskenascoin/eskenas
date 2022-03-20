@@ -7,7 +7,7 @@ mkdir ${PACKAGE_DIR}/Contents/MacOS
 mkdir ${PACKAGE_DIR}/Contents/Frameworks
 mkdir ${PACKAGE_DIR}/Contents/Resources
 
-binaries=("pirate-qt-mac")
+binaries=("eskenas-qt-mac")
 alllibs=()
 for binary in "${binaries[@]}";
 do
@@ -15,7 +15,7 @@ do
     cp ${binary} ${PACKAGE_DIR}/Contents/MacOS/
     cp zcutil/res/Info.plist ${PACKAGE_DIR}/Contents/
     cp zcutil/res/PkgInfo ${PACKAGE_DIR}/Contents/
-    cp src/qt/res/icons/pirate.icns ${PACKAGE_DIR}/Contents/Resources/logo.icns
+    cp src/qt/res/icons/eskenas.icns ${PACKAGE_DIR}/Contents/Resources/logo.icns
     # find the dylibs to copy for komodod
     DYLIBS=`otool -L ${PACKAGE_DIR}/Contents/MacOS/${binary} | grep "/usr/local" | awk -F' ' '{ print $1 }'`
     echo "copying ${DYLIBS} to ${PACKAGE_DIR}"
@@ -71,4 +71,4 @@ do
 done
 
 
-create-dmg --volname "pirate-qt-mac" --volicon "zcutil/res/logo.icns" --window-pos 200 120 --icon "TreasureChest.app" 200 190  --app-drop-link 600 185 --hide-extension "TreasureChest.app"  --window-size 800 400 --hdiutil-quiet --background zcutil/res/dmgbg.png  pirate-qt-mac.dmg TreasureChest.app
+create-dmg --volname "eskenas-qt-mac" --volicon "zcutil/res/logo.icns" --window-pos 200 120 --icon "TreasureChest.app" 200 190  --app-drop-link 600 185 --hide-extension "TreasureChest.app"  --window-size 800 400 --hdiutil-quiet --background zcutil/res/dmgbg.png  eskenas-qt-mac.dmg TreasureChest.app

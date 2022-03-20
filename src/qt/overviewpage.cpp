@@ -247,7 +247,7 @@ OverviewPage::~OverviewPage()
 
 void OverviewPage::getPrice()
 {
-    getHttpsJson("https://api.coingecko.com/api/v3/simple/price?ids=pirate-chain&vs_currencies=btc%2Cusd%2Ceur&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true");
+    getHttpsJson("https://api.coingecko.com/api/v3/simple/price?ids=eskenas-coin&vs_currencies=btc%2Cusd%2Ceur&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true");
 }
 
 void OverviewPage::replyPriceFinished()
@@ -257,7 +257,7 @@ void OverviewPage::replyPriceFinished()
             QJsonDocument response = QJsonDocument::fromJson(downloadedJSON.response.c_str());
 
             const QJsonObject item  = response.object();
-            const QJsonObject usd  = item["pirate-chain"].toObject();
+            const QJsonObject usd  = item["eskenas-coin"].toObject();
             auto fiatValue = usd["usd"].toDouble();
 
             double currentFiat = currentPrivateBalance * fiatValue;

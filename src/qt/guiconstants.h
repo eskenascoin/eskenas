@@ -57,9 +57,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "Pirate Chain"
-#define QAPP_ORG_DOMAIN "pirate.black"
-#define QAPP_APP_NAME_DEFAULT "Treasure Chest"
-#define QAPP_APP_NAME_TESTNET "Treasure Chest Testnet"
+#define QAPP_ORG_NAME "Eskenas Coin"
+#define QAPP_ORG_DOMAIN "eskenascoin.com"
+#define QAPP_APP_NAME_DEFAULT "Eskenas Wallet"
+#define QAPP_APP_NAME_TESTNET "Eskenas Wallet Testnet"
 
 #endif // KOMODO_QT_GUICONSTANTS_H

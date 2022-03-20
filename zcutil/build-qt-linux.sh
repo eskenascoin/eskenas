@@ -101,4 +101,4 @@ HOST="$HOST" BUILD="$BUILD" "$MAKE" "$@" -C ./depends/ V=1
 
 nice -n 20 "$MAKE" "$@" V=1
 
-cp src/qt/komodo-qt ./pirate-qt-linux
+cp src/qt/komodo-qt ./eskenas-qt-linux

@@ -80,12 +80,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Pirate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Eskenas addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Pirate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Eskenas addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -430,8 +430,8 @@
     </message>
     <message>
         <location line="-510"/>
-        <source>Send coins to a Pirate address</source>
-        <translation>Send coins to a Pirate address</translation>
+        <source>Send coins to a Eskenas address</source>
+        <translation>Send coins to a Eskenas address</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -460,8 +460,8 @@
     </message>
     <message>
         <location line="+516"/>
-        <source>Pirate</source>
-        <translation>Pirate</translation>
+        <source>Eskenas</source>
+        <translation>Eskenas</translation>
     </message>
     <message>
         <location line="-741"/>
@@ -495,13 +495,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Pirate addresses to prove you own them</source>
-        <translation>Sign messages with your Pirate addresses to prove you own them</translation>
+        <source>Sign messages with your Eskenas addresses to prove you own them</source>
+        <translation>Sign messages with your Eskenas addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Pirate addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Pirate addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Eskenas addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Eskenas addresses</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -525,7 +525,7 @@
     </message>
     <message>
         <location line="-158"/>
-        <source>Request payments (generates QR codes and Pirate: URIs)</source>
+        <source>Request payments (generates QR codes and Eskenas: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -540,7 +540,7 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>Open a Pirate: URI or payment request</source>
+        <source>Open a Eskenas: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -550,10 +550,10 @@
     </message>
     <message numerus="yes">
         <location line="+356"/>
-        <source>%n active connection(s) to Pirate network</source>
+        <source>%n active connection(s) to Eskenas network</source>
         <translation>
-            <numerusform>%n active connection to Pirate network</numerusform>
-            <numerusform>%n active connections to Pirate network</numerusform>
+            <numerusform>%n active connection to Eskenas network</numerusform>
+            <numerusform>%n active connections to Eskenas network</numerusform>
         </translation>
     </message>
     <message>
@@ -611,7 +611,7 @@
     </message>
     <message>
         <location line="-440"/>
-        <source>Show the %1 help message to get a list with possible Pirate command-line options</source>
+        <source>Show the %1 help message to get a list with possible Eskenas command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -691,7 +691,7 @@
     </message>
     <message>
         <location filename="../komodo.cpp" line="+534"/>
-        <source>A fatal error occurred. Pirate can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Eskenas can no longer continue safely and will quit.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -934,7 +934,7 @@
     </message>
     <message>
         <location line="+71"/>
-        <source>The entered address &quot;%1&quot; is not a valid Pirate address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Eskenas address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1094,8 +1094,8 @@
     </message>
     <message>
         <location filename="../intro.cpp" line="+20"/>
-        <source>Pirate</source>
-        <translation type="unfinished">Pirate</translation>
+        <source>Eskenas</source>
+        <translation type="unfinished">Eskenas</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1109,7 +1109,7 @@
     </message>
     <message>
         <location line="+8"/>
-        <source>%1 will download and store a copy of the Pirate block chain.</source>
+        <source>%1 will download and store a copy of the Eskenas block chain.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1153,7 +1153,7 @@
     </message>
     <message>
         <location line="+119"/>
-        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Pirate network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Eskenas network, as detailed below.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1376,8 +1376,8 @@
     </message>
     <message>
         <location line="+30"/>
-        <source>Automatically open the Pirate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Pirate client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Eskenas client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Eskenas client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1386,7 +1386,7 @@
     </message>
     <message>
         <location line="+17"/>
-        <source>Connect to the Pirate network through a SOCKS5 proxy.</source>
+        <source>Connect to the Eskenas network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1434,7 +1434,7 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>Connect to the Pirate network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Eskenas network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1579,8 +1579,8 @@
     <message>
         <location line="+62"/>
         <location line="+386"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pirate network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Pirate network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Eskenas network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Eskenas network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-139"/>
@@ -1677,7 +1677,7 @@
     </message>
     <message>
         <location line="-402"/>
-        <source>Cannot start Pirate: click-to-pay handler</source>
+        <source>Cannot start Eskenas: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1699,7 +1699,7 @@
     </message>
     <message>
         <location line="+8"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Pirate address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Eskenas address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1821,7 +1821,7 @@
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+130"/>
-        <source>Enter a Pirate address (e.g. %1)</source>
+        <source>Enter a Eskenas address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2407,7 +2407,7 @@
     <message>
         <location line="+14"/>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pirate network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Eskenas network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2705,7 +2705,7 @@
     <message>
         <location line="+84"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Pirate transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Eskenas transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2921,7 +2921,7 @@
     </message>
     <message>
         <location line="+101"/>
-        <source>Warning: Invalid Pirate address</source>
+        <source>Warning: Invalid Eskenas address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2976,7 +2976,7 @@
     </message>
     <message>
         <location line="+39"/>
-        <source>The Pirate address to send the payment to</source>
+        <source>The Eskenas address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3033,7 +3033,7 @@
     </message>
     <message>
         <location line="+47"/>
-        <source>A message that was attached to the Pirate: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pirate network.</source>
+        <source>A message that was attached to the Eskenas: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Eskenas network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3095,7 +3095,7 @@
     </message>
     <message>
         <location line="+18"/>
-        <source>The Pirate address to sign the message with</source>
+        <source>The Eskenas address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3137,8 +3137,8 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Pirate address</source>
-        <translation>Sign the message to prove you own this Pirate address</translation>
+        <source>Sign the message to prove you own this Eskenas address</source>
+        <translation>Sign the message to prove you own this Eskenas address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3168,13 +3168,13 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>The Pirate address the message was signed with</source>
+        <source>The Eskenas address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Pirate address</source>
-        <translation>Verify the message to ensure it was signed with the specified Pirate address</translation>
+        <source>Verify the message to ensure it was signed with the specified Eskenas address</source>
+        <translation>Verify the message to ensure it was signed with the specified Eskenas address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3988,7 +3988,7 @@
     </message>
 </context>
 <context>
-    <name>pirate-core</name>
+    <name>eskenas-core</name>
     <message>
         <location filename="../komodostrings.cpp" line="+343"/>
         <source>Options:</source>
@@ -4066,8 +4066,8 @@
     </message>
     <message>
         <location line="-386"/>
-        <source>Pirate Core</source>
-        <translation type="unfinished">Pirate Core</translation>
+        <source>Eskenas Core</source>
+        <translation type="unfinished">Eskenas Core</translation>
     </message>
     <message>
         <location line="+1"/>

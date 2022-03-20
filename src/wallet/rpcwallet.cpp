@@ -2620,7 +2620,7 @@ UniValue encryptwallet(const UniValue& params, bool fHelp, const CPubKey& mypk)
 
         //shutdown
         StartShutdown();
-        return "wallet encryption failed; Pirate server stopping, restart to restore unencrypted wallet.";
+        return "wallet encryption failed; Eskenas server stopping, restart to restore unencrypted wallet.";
     } else {
         // remove unneeded backup
         boost::filesystem::remove(pathBackup);

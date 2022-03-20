@@ -46,4 +46,4 @@ CONFIG_SITE="$(pwd)/depends/aarch64-linux-gnu/share/config.site" ./configure --p
 
 make "$@" V=1
 
-cp src/qt/komodo-qt ./pirate-qt-arm
+cp src/qt/komodo-qt ./eskenas-qt-arm

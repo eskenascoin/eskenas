@@ -1,12 +1,12 @@
 [Desktop Entry]
-Name=Treasure Chest
-Comment=Full node UI wallet for Pirate
+Name=Eskenas Wallet
+Comment=Full node UI wallet for Eskenas
 GenericName=TreasureChest
-Exec=/usr/local/bin/pirate-qt %u
-Icon=pirate.xpm
+Exec=/usr/local/bin/eskenas-qt %u
+Icon=eskenas.xpm
 Type=Application
 StartupNotify=true
-StartupWMClass=pirate-qt
+StartupWMClass=eskenas-qt
 Categories=Utility;
-MimeType=x-scheme-handler/pirate;
-Keywords=TreasureChest;
+MimeType=x-scheme-handler/eskenas;
+Keywords=EskenasWallet;

@@ -23,5 +23,5 @@ sed -i 's/-lboost_system-mt /-lboost_system-mt-s /' configure
 cd src/
 CC="${CC}" CXX="${CXX}" make "$@" V=1
 
-mv qt/komodo-qt.exe qt/pirate-qt-win.exe
-cp qt/pirate-qt-win.exe ../pirate-qt-win.exe
+mv qt/komodo-qt.exe qt/eskenas-qt-win.exe
+cp qt/eskenas-qt-win.exe ../eskenas-qt-win.exe

@@ -1026,7 +1026,7 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
     fLogIPs = GetBoolArg("-logips", false);
 
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    LogPrintf("Pirate version %s (%s)\n", FormatFullVersion(), CLIENT_DATE);
+    LogPrintf("Eskenas version %s (%s)\n", FormatFullVersion(), CLIENT_DATE);
 
     // when specifying an explicit binding address, you want to listen on it
     // even when -connect or -proxy is specified
@@ -1711,6 +1711,9 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
         useBootstrap = true;
     }
 
+    // disables bootstrap for now
+    useBootstrap = false;
+
     if (useBootstrap) {
         fReindex = false;
         //wipe transactions from wallet to create a clean slate
@@ -2022,10 +2025,10 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
                 InitWarning(msg);
             }
             else if (nLoadWalletRet == DB_TOO_NEW)
-                strErrors << _("Error loading wallet.dat: Wallet requires newer version of Pirate") << "\n";
+                strErrors << _("Error loading wallet.dat: Wallet requires newer version of Eskenas") << "\n";
             else if (nLoadWalletRet == DB_NEED_REWRITE)
             {
-                strErrors << _("Wallet needed to be rewritten: restart Pirate to complete") << "\n";
+                strErrors << _("Wallet needed to be rewritten: restart Eskenas to complete") << "\n";
                 LogPrintf("%s", strErrors.str());
                 return InitError(strErrors.str());
             }
@@ -2109,11 +2112,11 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
                       InitWarning(msg);
                   }
                   else if (nLoadWalletRet == DB_TOO_NEW)
-                      strErrors << _("Error loading wallet.dat: Wallet requires newer version of Pirate") << "\n";
+                      strErrors << _("Error loading wallet.dat: Wallet requires newer version of Eskenas") << "\n";
 
                   else if (nLoadWalletRet == DB_NEED_REWRITE)
                   {
-                      strErrors << _("Wallet needed to be rewritten: restart Pirate to complete") << "\n";
+                      strErrors << _("Wallet needed to be rewritten: restart Eskenas to complete") << "\n";
                       LogPrintf("%s", strErrors.str());
                       return InitError(strErrors.str());
                   }

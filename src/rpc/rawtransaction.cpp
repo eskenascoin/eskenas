@@ -1596,7 +1596,7 @@ UniValue z_createbuildinstructions(const UniValue& params, bool fHelp, const CPu
           "2. \"outputs\"               (array, required) A json array of json output objects\n"
           "     [\n"
           "       {\n"
-          "         \"address\":address     (string, required) Pirate zaddr\n"
+          "         \"address\":address     (string, required) Eskenas zaddr\n"
           "         \"amount\":amount       (numeric, required) The numeric amount in ARRR\n"
           "         \"memo\": \"string\"    (string, optional) String memo in UTF8 ro Hexidecimal format\n"
           "         ,...\n"

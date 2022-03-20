@@ -214,8 +214,8 @@
         <translation>&amp;Opsies</translation>
     </message>
     <message>
-        <source>Pirate</source>
-        <translation>Pirate</translation>
+        <source>Eskenas</source>
+        <translation>Eskenas</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -770,7 +770,7 @@
     </message>
     </context>
 <context>
-    <name>pirate-core</name>
+    <name>eskenas-core</name>
     <message>
         <source>Options:</source>
         <translation>Opsies:</translation>

@@ -1288,7 +1288,7 @@ pub extern "C" fn librustzcash_get_bip39_seed(buf: *mut u8, buf_len: usize) -> *
 pub extern "C" fn librustzcash_get_seed_phrase(seed: *const c_uchar, length: u8) -> *const c_char {
     //16 byte = 12 word mnemonic
     //24 byte = 18 word mnemonic
-    //32 byte = 24 word mnemonic (default for PirateChain)
+    //32 byte = 24 word mnemonic (default for PirateChain and EskenasCoin)
     if (length!=16) && (length!=24) && (length!=32) {
       let result="Internal error: The HDseed length is invalid.";
       let c_str = CString::new(result).unwrap();

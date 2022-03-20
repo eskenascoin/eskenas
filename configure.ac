@@ -9,16 +9,16 @@ define(_CLIENT_VERSION_SUFFIX, m4_if(m4_eval(_CLIENT_VERSION_BUILD < 25), 1, _CL
 define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2021)
 define(_COPYRIGHT_HOLDERS, "The %s developers")
-define(_COPYRIGHT_HOLDERS_SUBSTITUTION, "Pirate")
-AC_INIT([Pirate],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_SUFFIX(_ZC_BUILD_VAL)],[https://github.com/PirateNetwork/Pirate/issues],[pirate])AC_CONFIG_SRCDIR([src/main.cpp])
+define(_COPYRIGHT_HOLDERS_SUBSTITUTION, "Eskenas")
+AC_INIT([Eskenas],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_SUFFIX(_ZC_BUILD_VAL)],[https://github.com/eskenasNetwork/eskenas/issues],[eskenas])AC_CONFIG_SRCDIR([src/main.cpp])
 AC_CONFIG_HEADERS([src/config/bitcoin-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([build-aux/m4])
 
-BITCOIN_DAEMON_NAME=pirated
-BITCOIN_GUI_NAME=pirate-qt
-BITCOIN_CLI_NAME=pirate-cli
-BITCOIN_TX_NAME=pirate-tx
+BITCOIN_DAEMON_NAME=eskenasd
+BITCOIN_GUI_NAME=eskenas-qt
+BITCOIN_CLI_NAME=eskenas-cli
+BITCOIN_TX_NAME=eskenas-tx
 
 dnl Unless the user specified ARFLAGS, force it to be cr
 AC_ARG_VAR(ARFLAGS, [Flags for the archiver, defaults to <cr> if not set])
@@ -253,7 +253,7 @@ CPPFLAGS="$CPPFLAGS -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS"
 
 AC_ARG_WITH([utils],
   [AS_HELP_STRING([--with-utils],
-  [build pirate-cli pirate-tx wallet-utility (default=yes)])],
+  [build eskenas-cli eskenas-tx wallet-utility (default=yes)])],
   [build_bitcoin_utils=$withval],
   [build_bitcoin_utils=yes])
 
@@ -867,7 +867,7 @@ AC_MSG_CHECKING([whether to build bitcoind])
 AM_CONDITIONAL([BUILD_BITCOIND], [test x$build_bitcoind = xyes])
 AC_MSG_RESULT($build_bitcoind)
 
-AC_MSG_CHECKING([whether to build utils (pirate-cli pirate-tx wallet-utility)])
+AC_MSG_CHECKING([whether to build utils (eskenas-cli eskenas-tx wallet-utility)])
 AM_CONDITIONAL([BUILD_BITCOIN_UTILS], [test x$build_bitcoin_utils = xyes])
 AC_MSG_RESULT($build_bitcoin_utils)
 

@@ -313,7 +313,7 @@ void PirateOceanGUI::createActions()
     tabGroup->addAction(overviewAction);
 
     //sendCoinsAction = new QAction(platformStyle->SingleColorIcon(":/icons/send"), tr("&Send"), this);
-    //sendCoinsAction->setStatusTip(tr("Send coins to a Pirate address"));
+    //sendCoinsAction->setStatusTip(tr("Send coins to a Eskenas address"));
     //sendCoinsAction->setToolTip(sendCoinsAction->statusTip());
     //sendCoinsAction->setCheckable(true);
     //sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
@@ -366,7 +366,7 @@ void PirateOceanGUI::createActions()
         
         //If the off-line role is enabled, the wallet shouldn't have internet access,
         //for security reasons. The wallet should not attempt to sync with the blockchain.
-        // This can be accomplished by editing PIRATE.conf and setting maxconnections=0.
+        // This can be accomplished by editing ESKENAS.conf and setting maxconnections=0.
         //Alternatively, the number of connections are override here when "Signing"
         //is enabled:
         if (fEnableZSigning_Sign==true) {
@@ -457,9 +457,9 @@ void PirateOceanGUI::createActions()
     changePassphraseAction = new QAction(platformStyle->TextColorIcon(":/icons/key"), tr("&Change Passphrase..."), this);
     changePassphraseAction->setStatusTip(tr("Change the passphrase used for wallet encryption"));
     signMessageAction = new QAction(platformStyle->TextColorIcon(":/icons/edit"), tr("Sign &message..."), this);
-    signMessageAction->setStatusTip(tr("Sign messages with your Pirate transparent addresses to prove you own them"));
+    signMessageAction->setStatusTip(tr("Sign messages with your Eskenas transparent addresses to prove you own them"));
     verifyMessageAction = new QAction(platformStyle->TextColorIcon(":/icons/verify"), tr("&Verify message..."), this);
-    verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified Pirate transparent addresses"));
+    verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified Eskenas transparent addresses"));
 
     openRPCConsoleAction = new QAction(platformStyle->TextColorIcon(":/icons/debugwindow"), tr("&Debug window"), this);
     openRPCConsoleAction->setStatusTip(tr("Open debugging and diagnostic console"));
@@ -474,7 +474,7 @@ void PirateOceanGUI::createActions()
     usedReceivingZAddressesAction->setStatusTip(tr("Show the list of used receiving z-addresses and labels"));
 
     openAction = new QAction(platformStyle->TextColorIcon(":/icons/open"), tr("Open &URI..."), this);
-    openAction->setStatusTip(tr("Open a pirate: URI or payment request"));
+    openAction->setStatusTip(tr("Open a eskenas: URI or payment request"));
 
     importSpendAction = new QAction(platformStyle->TextColorIcon(":/icons/key"), tr("&Import Spending Key"), this);
     importSpendAction->setStatusTip(tr("Import extended spending key"));
@@ -490,7 +490,7 @@ void PirateOceanGUI::createActions()
 
     showHelpMessageAction = new QAction(platformStyle->TextColorIcon(":/icons/info"), tr("&Command-line options"), this);
     showHelpMessageAction->setMenuRole(QAction::NoRole);
-    showHelpMessageAction->setStatusTip(tr("Show the %1 help message to get a list with possible Pirate command-line options").arg(tr(PACKAGE_NAME)));
+    showHelpMessageAction->setStatusTip(tr("Show the %1 help message to get a list with possible Eskenas command-line options").arg(tr(PACKAGE_NAME)));
 
     //hide backup wallet, needs work...
     backupWalletAction->setVisible(false);
@@ -952,7 +952,7 @@ void PirateOceanGUI::updateNetworkState()
     QString tooltip;
 
     if (clientModel->getNetworkActive()) {
-        tooltip = tr("%n active connection(s) to Pirate network", "", count) + QString(".<br>") + tr("Click to disable network activity.");
+        tooltip = tr("%n active connection(s) to Eskenas network", "", count) + QString(".<br>") + tr("Click to disable network activity.");
     } else {
         tooltip = tr("Network activity disabled.") + QString("<br>") + tr("Click to enable network activity again.");
         icon = ":/icons/network_disabled";
@@ -1105,7 +1105,7 @@ void PirateOceanGUI::setNumBlocks(int count, const QDateTime& blockDate, double 
 
 void PirateOceanGUI::message(const QString &title, const QString &message, unsigned int style, bool *ret)
 {
-    QString strTitle = tr("Pirate"); // default title
+    QString strTitle = tr("Eskenas"); // default title
     // Default to information icon
     int nMBoxIcon = QMessageBox::Information;
     int nNotifyIcon = Notificator::Information;

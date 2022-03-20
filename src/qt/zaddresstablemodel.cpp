@@ -528,7 +528,7 @@ QModelIndex ZAddressTableModel::index(int row, int column, const QModelIndex &pa
 void ZAddressTableModel::updateEntry(const QString &address,
         const QString &label, bool isMine, const QString &purpose, int status)
 {
-    // Update address book model from Pirate core
+    // Update address book model from Eskenas core
     priv->updateEntry(address, label, isMine, purpose, status);
 }
 

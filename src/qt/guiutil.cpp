@@ -133,7 +133,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent, bool allowZ
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a Pirate address (e.g. %1)").arg(QString("zs1u39a4y9g8tn...hnc2csmcl")));
+    widget->setPlaceholderText(QObject::tr("Enter a Eskenas address (e.g. %1)").arg(QString("zs1u39a4y9g8tn...hnc2csmcl")));
 #endif
     widget->setValidator(new KomodoAddressEntryValidator(parent, allowZAddresses));
     widget->setCheckValidator(new KomodoAddressCheckValidator(parent, allowZAddresses));
@@ -150,8 +150,8 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 
 bool parseKomodoURI(const QUrl &uri, SendCoinsRecipient *out)
 {
-    // return if URI is not valid or is no pirate: URI
-    if(!uri.isValid() || uri.scheme() != QString("pirate"))
+    // return if URI is not valid or is no eskenas: URI
+    if(!uri.isValid() || uri.scheme() != QString("eskenas"))
         return false;
 
     SendCoinsRecipient rv;
@@ -211,13 +211,13 @@ bool parseKomodoURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseKomodoURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert pirate:// to pirate:
+    // Convert eskenas:// to eskenas:
     //
-    //    Cannot handle this later, because pirate:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because eskenas:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("pirate://", Qt::CaseInsensitive))
+    if(uri.startsWith("eskenas://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 10, "pirate:");
+        uri.replace(0, 10, "eskenas:");
     }
     QUrl uriInstance(uri);
     return parseKomodoURI(uriInstance, out);
@@ -225,7 +225,7 @@ bool parseKomodoURI(QString uri, SendCoinsRecipient *out)
 
 QString formatKomodoURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("pirate:%1").arg(info.address);
+    QString ret = QString("eskenas:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)

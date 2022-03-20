@@ -112,20 +112,20 @@ contrib/debian/files
 contrib/debian/substvars
 
 src/rpcmisc~.cpp
-src/pirate-cli
-src/pirated
-src/pirate-tx
-src/pirate-test
+src/eskenas-cli
+src/eskenasd
+src/eskenas-tx
+src/eskenas-test
 src/wallet-utility
-src/pirate-cli.exe
-src/pirated.exe
-src/pirate-tx.exe
-src/pirate-test.exe
+src/eskenas-cli.exe
+src/eskenasd.exe
+src/eskenas-tx.exe
+src/eskenas-test.exe
 src/wallet-utility.exe
-pirate-qt-win.exe
-pirate-qt-linux
-pirate-qt-mac
-pirate-qt-arm
+eskenas-qt-win.exe
+eskenas-qt-linux
+eskenas-qt-mac
+eskenas-qt-arm
 src/qt/komodo-qt
 
 #QT Files

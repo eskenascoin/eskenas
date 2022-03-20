@@ -980,6 +980,8 @@ std::string HelpExampleCli(const std::string& methodname, const std::string& arg
         return "> komodo-cli " + methodname + " " + args + "\n";
     } else if ((strncmp(ASSETCHAINS_SYMBOL, "PIRATE", 6) == 0) ) {
         return "> pirate-cli " + methodname + " " + args + "\n";
+    } else if ((strncmp(ASSETCHAINS_SYMBOL, "ESKENAS", 7) == 0) ) {
+        return "> eskenas-cli " + methodname + " " + args + "\n";
     } else {
         return "> komodo-cli -ac_name=" + strprintf("%s", ASSETCHAINS_SYMBOL) + " " + methodname + " " + args + "\n";
     }

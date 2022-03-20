@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Pirate"
-            VALUE "FileDescription",    "pirate-cli (JSON-RPC client for Pirate)"
+            VALUE "CompanyName",        "Eskenas"
+            VALUE "FileDescription",    "eskenas-cli (JSON-RPC client for Eskenas)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "pirate-cli"
+            VALUE "InternalName",       "eskenas-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "pirate-cli.exe"
-            VALUE "ProductName",        "pirate-cli"
+            VALUE "OriginalFilename",   "eskenas-cli.exe"
+            VALUE "ProductName",        "eskenas-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

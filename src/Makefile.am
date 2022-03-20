@@ -183,11 +183,11 @@ noinst_PROGRAMS =
 TESTS =
 
 #if BUILD_BITCOIND
-  bin_PROGRAMS += pirated
+  bin_PROGRAMS += eskenasd
 #endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += pirate-cli pirate-tx
+  bin_PROGRAMS += eskenas-cli eskenas-tx
 endif
 if ENABLE_WALLET
   bin_PROGRAMS += wallet-utility
@@ -664,16 +664,16 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-pirated_SOURCES = bitcoind.cpp
-pirated_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-pirated_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-pirated_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+eskenasd_SOURCES = bitcoind.cpp
+eskenasd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+eskenasd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+eskenasd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-pirated_SOURCES += bitcoind-res.rc
+eskenasd_SOURCES += bitcoind-res.rc
 endif
 
-pirated_LDADD = \
+eskenasd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -693,10 +693,10 @@ pirated_LDADD = \
   $(LIBCRYPTOCONDITIONS)
 
 if ENABLE_WALLET
-pirated_LDADD += $(LIBBITCOIN_WALLET)
+eskenasd_LDADD += $(LIBBITCOIN_WALLET)
 endif
 
-pirated_LDADD += \
+eskenasd_LDADD += \
 	$(LIBCJSON) \
   $(BOOST_LIBS) \
   $(BDB_LIBS) \
@@ -714,31 +714,31 @@ pirated_LDADD += \
   $(LIBCRYPTOCONDITIONS)
 
 # if TARGET_DARWIN
-# pirated_LDADD += libcc.dylib $(LIBSECP256K1)
+# eskenasd_LDADD += libcc.dylib $(LIBSECP256K1)
 # endif
 # if TARGET_WINDOWS
-# pirated_LDADD += libcc.dll $(LIBSECP256K1)
+# eskenasd_LDADD += libcc.dll $(LIBSECP256K1)
 # endif
 # if TARGET_LINUX
-# pirated_LDADD += libcc.so $(LIBSECP256K1)
+# eskenasd_LDADD += libcc.so $(LIBSECP256K1)
 # endif
 
 if ENABLE_PROTON
-pirated_LDADD += $(LIBBITCOIN_PROTON) $(PROTON_LIBS)
+eskenasd_LDADD += $(LIBBITCOIN_PROTON) $(PROTON_LIBS)
 endif
 
 # [+] Decker: use static linking for libstdc++.6.dylib, libgomp.1.dylib, libgcc_s.1.dylib
 if TARGET_DARWIN
-pirated_LDFLAGS += -static-libgcc
+eskenasd_LDFLAGS += -static-libgcc
 endif
 
 # bitcoin-cli binary #
-pirate_cli_SOURCES = bitcoin-cli.cpp
-pirate_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-pirate_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-pirate_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+eskenas_cli_SOURCES = bitcoin-cli.cpp
+eskenas_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+eskenas_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+eskenas_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 if TARGET_DARWIN
-pirate_cli_LDFLAGS += -static-libgcc
+eskenas_cli_LDFLAGS += -static-libgcc
 endif
 
 # wallet-utility binary #
@@ -750,10 +750,10 @@ wallet_utility_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 endif
 
 if TARGET_WINDOWS
-pirate_cli_SOURCES += bitcoin-cli-res.rc
+eskenas_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
-pirate_cli_LDADD = \
+eskenas_cli_LDADD = \
 	$(LIBBITCOIN_CLI) \
 	$(LIBUNIVALUE) \
 	$(LIBBITCOIN_UTIL) \
@@ -789,17 +789,17 @@ wallet_utility_LDADD = \
 endif
 
 # zcash-tx binary #
-pirate_tx_SOURCES = komodo-tx.cpp
-pirate_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-pirate_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-pirate_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+eskenas_tx_SOURCES = komodo-tx.cpp
+eskenas_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+eskenas_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+eskenas_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-pirate_tx_SOURCES += bitcoin-tx-res.rc
+eskenas_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
 # FIXME: Is libzcash needed for zcash_tx?
-pirate_tx_LDADD = \
+eskenas_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -814,7 +814,7 @@ pirate_tx_LDADD = \
   $(LIBZCASH_LIBS) \
   $(LIBCRYPTOCONDITIONS)
 
-pirate_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+eskenas_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # zcash protocol primitives #
