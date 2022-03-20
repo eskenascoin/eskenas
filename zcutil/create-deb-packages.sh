@@ -1,4 +1,4 @@
-export APP_VERSION="5.4.2"
+export APP_VERSION="1.0.1"
 
 echo -n "Building amd64 deb..........."
 debdir=bin/eskenas-qt-ubuntu1804-v$APP_VERSION

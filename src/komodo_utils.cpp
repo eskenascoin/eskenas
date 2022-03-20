@@ -1327,15 +1327,14 @@ void komodo_args(char *argv0)
         StartShutdown();
     }
     SoftSetArg("-ac_name", std::string("ESKENAS"));
-    SoftSetArg("-ac_supply", std::string("157921160"));
-    SoftSetArg("-ac_eras", std::string("6"));
-    SoftSetArg("-ac_reward", std::string("1000000,2000000,3000000,4000000,5000000,1000000000"));
-    SoftSetArg("-ac_end", std::string("525000,1050000,1575000,2100000,2625000,0"));
-    SoftSetArg("-ac_halving", std::string("525100,525100,525100,525100,525100,525000"));
+    SoftSetArg("-ac_supply", std::string("0"));
+    SoftSetArg("-ac_eras", std::string("9"));
+    SoftSetArg("-ac_reward", std::string("1000,192116000000000,200000000000000,1000000,2000000,3000000,4000000,5000000,1000000000")); // https://docs.rs/zcash_primitives/latest/zcash_primitives/transaction/components/amount/struct.Amount.html // can't shield a too large coinbase and each of these large coinbase txns have to be shielded sepeartely
+    SoftSetArg("-ac_end", std::string("64,65,143,525000,1050000,1575000,2100000,2625000,0"));
+    SoftSetArg("-ac_halving", std::string("525100,525100,525100,525100,525100,525100,525100,525100,525000"));
     SoftSetArg("-ac_private", std::string("1"));
     SoftSetArg("-ac_cbmaturity", std::string("10")); 
     SoftSetArg("-ac_adaptivepow", std::string("1"));
-    SoftSetArg("-ac_sapling", std::string("1"));
 
     //SoftSetArg("-addnode", std::string("zero.kolo.supernet.org"));
     vector<string> ESKENASnodes = {"198.154.112.54","198.154.112.67"};
