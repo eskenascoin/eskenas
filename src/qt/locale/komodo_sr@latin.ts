@@ -158,16 +158,16 @@
         <translation>Otvori &amp;URI...</translation>
     </message>
     <message>
-        <source>Send coins to a Pirate address</source>
-        <translation>Pošalji novčiće na Pirate adresu</translation>
+        <source>Send coins to a Eskenas address</source>
+        <translation>Pošalji novčiće na Eskenas adresu</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Proveri poruku...</translation>
     </message>
     <message>
-        <source>Pirate</source>
-        <translation>Pirate</translation>
+        <source>Eskenas</source>
+        <translation>Eskenas</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -404,10 +404,10 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>pirate-core</name>
+    <name>eskenas-core</name>
     <message>
-        <source>Pirate Core</source>
-        <translation>Pirate Core</translation>
+        <source>Eskenas Core</source>
+        <translation>Eskenas Core</translation>
     </message>
     <message>
         <source>Information</source>

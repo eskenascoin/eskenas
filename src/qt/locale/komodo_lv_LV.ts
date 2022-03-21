@@ -142,8 +142,8 @@
         <translation>Bloku reindeksēšana no diska...</translation>
     </message>
     <message>
-        <source>Send coins to a Pirate address</source>
-        <translation>Nosūtīt bitkoinus uz Pirate adresi</translation>
+        <source>Send coins to a Eskenas address</source>
+        <translation>Nosūtīt bitkoinus uz Eskenas adresi</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -166,8 +166,8 @@
         <translation>&amp;Pārbaudīt ziņojumu...</translation>
     </message>
     <message>
-        <source>Pirate</source>
-        <translation>Pirate</translation>
+        <source>Eskenas</source>
+        <translation>Eskenas</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -194,12 +194,12 @@
         <translation>Šifrēt privātās atslēgas kuras pieder tavam maciņam</translation>
     </message>
     <message>
-        <source>Sign messages with your Pirate addresses to prove you own them</source>
-        <translation>Parakstīt ziņojumus ar savām Pirate adresēm lai pierādītu ka tās pieder tev</translation>
+        <source>Sign messages with your Eskenas addresses to prove you own them</source>
+        <translation>Parakstīt ziņojumus ar savām Eskenas adresēm lai pierādītu ka tās pieder tev</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Pirate addresses</source>
-        <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām Pirate adresēm</translation>
+        <source>Verify messages to ensure they were signed with specified Eskenas addresses</source>
+        <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām Eskenas adresēm</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -218,12 +218,12 @@
         <translation>Ciļņu rīkjosla</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and Pirate: URIs)</source>
-        <translation>Pieprasīt maksājumus (izveido QR kodu un Pirate: URIs)</translation>
+        <source>Request payments (generates QR codes and Eskenas: URIs)</source>
+        <translation>Pieprasīt maksājumus (izveido QR kodu un Eskenas: URIs)</translation>
     </message>
     <message>
-        <source>Open a Pirate: URI or payment request</source>
-        <translation>Atvērt Pirate URI vai maksājuma pieprasījumu</translation>
+        <source>Open a Eskenas: URI or payment request</source>
+        <translation>Atvērt Eskenas URI vai maksājuma pieprasījumu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -499,15 +499,15 @@
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Ieslēgt Pirate &amp;kontroles funkcijas</translation>
+        <translation>Ieslēgt Eskenas &amp;kontroles funkcijas</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
         <translation>&amp;Tērēt neapstiprinātu atlikumu</translation>
     </message>
     <message>
-        <source>Automatically open the Pirate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Uz rūtera automātiski atvērt Pirate klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
+        <source>Automatically open the Eskenas client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Uz rūtera automātiski atvērt Eskenas klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -559,7 +559,7 @@
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Vai rādīt Pirate kontroles funkcijas vai nē.</translation>
+        <translation>Vai rādīt Eskenas kontroles funkcijas vai nē.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -593,8 +593,8 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pirate network after a connection is established, but this process has not completed yet.</source>
-        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Pirate tīklu, taču šis process vēl nav beidzies.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Eskenas network after a connection is established, but this process has not completed yet.</source>
+        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Eskenas tīklu, taču šis process vēl nav beidzies.</translation>
     </message>
     <message>
         <source>Transparent:</source>
@@ -852,7 +852,7 @@
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Pirate Kontroles Funkcijas</translation>
+        <translation>Eskenas Kontroles Funkcijas</translation>
     </message>
     <message>
         <source>Inputs...</source>
@@ -1027,8 +1027,8 @@
         <translation>Kopēt parakstu uz sistēmas starpliktuvi</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Pirate address</source>
-        <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs Pirate adreses īpašnieks.</translation>
+        <source>Sign the message to prove you own this Eskenas address</source>
+        <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs Eskenas adreses īpašnieks.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1098,7 +1098,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>pirate-core</name>
+    <name>eskenas-core</name>
     <message>
         <source>Options:</source>
         <translation>Iespējas:</translation>
@@ -1124,8 +1124,8 @@
         <translation>Darbināt fonā kā servisu un pieņemt komandas</translation>
     </message>
     <message>
-        <source>Pirate Core</source>
-        <translation>Pirate Core</translation>
+        <source>Eskenas Core</source>
+        <translation>Eskenas Core</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>

@@ -170,8 +170,8 @@
         <translation>Lemezen lévő blokkok újraindexelése...</translation>
     </message>
     <message>
-        <source>Send coins to a Pirate address</source>
-        <translation>Pirate küldése megadott címre</translation>
+        <source>Send coins to a Eskenas address</source>
+        <translation>Eskenas küldése megadott címre</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -194,8 +194,8 @@
         <translation>Üzenet &amp;valódiságának ellenőrzése</translation>
     </message>
     <message>
-        <source>Pirate</source>
-        <translation>Pirate</translation>
+        <source>Eskenas</source>
+        <translation>Eskenas</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -222,12 +222,12 @@
         <translation>A tárcádhoz tartozó privát kulcsok titkosítása</translation>
     </message>
     <message>
-        <source>Sign messages with your Pirate addresses to prove you own them</source>
-        <translation>Üzenetek aláírása a Pirate-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
+        <source>Sign messages with your Eskenas addresses to prove you own them</source>
+        <translation>Üzenetek aláírása a Eskenas-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Pirate addresses</source>
-        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Pirate-címekkel vannak-e aláírva</translation>
+        <source>Verify messages to ensure they were signed with specified Eskenas addresses</source>
+        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Eskenas-címekkel vannak-e aláírva</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -246,8 +246,8 @@
         <translation>Fül eszköztár</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and Pirate: URIs)</source>
-        <translation>Fizetési kérelem (QR-kódot és "pirate:" URI azonosítót hoz létre)</translation>
+        <source>Request payments (generates QR codes and Eskenas: URIs)</source>
+        <translation>Fizetési kérelem (QR-kódot és "Eskenas:" URI azonosítót hoz létre)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -258,16 +258,16 @@
         <translation>A használt fogadó címek és címkék megtekintése</translation>
     </message>
     <message>
-        <source>Open a Pirate: URI or payment request</source>
-        <translation>"pirate:" URI azonosító vagy fizetési kérelem megnyitása</translation>
+        <source>Open a Eskenas: URI or payment request</source>
+        <translation>"Eskenas:" URI azonosító vagy fizetési kérelem megnyitása</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Paran&amp;cssor kapcsolók</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Pirate network</source>
-        <translation><numerusform>%n aktív kapcsolat a Pirate hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Pirate hálózathoz</numerusform></translation>
+        <source>%n active connection(s) to Eskenas network</source>
+        <translation><numerusform>%n aktív kapcsolat a Eskenas hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Eskenas hálózathoz</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -604,16 +604,16 @@
         <translation>Szakértő</translation>
     </message>
     <message>
-        <source>Automatically open the Pirate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A Pirate-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <source>Automatically open the Eskenas client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>A Eskenas-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>&amp;UPnP port-feltérképezés</translation>
     </message>
     <message>
-        <source>Connect to the Pirate network through a SOCKS5 proxy.</source>
-        <translation>Csatlakozás a Pirate hálózatához SOCKS5 proxyn keresztül</translation>
+        <source>Connect to the Eskenas network through a SOCKS5 proxy.</source>
+        <translation>Csatlakozás a Eskenas hálózatához SOCKS5 proxyn keresztül</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -707,8 +707,8 @@
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pirate network after a connection is established, but this process has not completed yet.</source>
-        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Pirate hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Eskenas network after a connection is established, but this process has not completed yet.</source>
+        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Eskenas hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -776,8 +776,8 @@
         <translation>Összeg</translation>
     </message>
     <message>
-        <source>Enter a Pirate address (e.g. %1)</source>
-        <translation>Ad meg egy Pirate címet (pl: %1)</translation>
+        <source>Enter a Eskenas address (e.g. %1)</source>
+        <translation>Ad meg egy Eskenas címet (pl: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1305,7 +1305,7 @@
         <translation>A jelenleg kiválasztott aláírás másolása a rendszer-vágólapra</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Pirate address</source>
+        <source>Sign the message to prove you own this Eskenas address</source>
         <translation>Üzenet </translation>
     </message>
     <message>
@@ -1376,7 +1376,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>pirate-core</name>
+    <name>eskenas-core</name>
     <message>
         <source>Options:</source>
         <translation>Opciók
@@ -1406,8 +1406,8 @@
 </translation>
     </message>
     <message>
-        <source>Pirate Core</source>
-        <translation>Pirate Core</translation>
+        <source>Eskenas Core</source>
+        <translation>Eskenas Core</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
@@ -1561,7 +1561,7 @@
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Nincs elég pirateod.</translation>
+        <translation>Nincs elég Eskenasod.</translation>
     </message>
     <message>
         <source>Loading block index...</source>

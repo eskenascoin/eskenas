@@ -142,8 +142,8 @@
         <translation>Deschide &amp;URI...</translation>
     </message>
     <message>
-        <source>Send coins to a Pirate address</source>
-        <translation>Trimite monedele către o adresă Pirate</translation>
+        <source>Send coins to a Eskenas address</source>
+        <translation>Trimite monedele către o adresă Eskenas</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -166,8 +166,8 @@
         <translation>&amp;Verifică mesajul...</translation>
     </message>
     <message>
-        <source>Pirate</source>
-        <translation>Pirate</translation>
+        <source>Eskenas</source>
+        <translation>Eskenas</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -194,12 +194,12 @@
         <translation>Criptează cheile private care aparțin portofelului tău.</translation>
     </message>
     <message>
-        <source>Sign messages with your Pirate addresses to prove you own them</source>
-        <translation>Semnează mesajele cu adresa ta de Pirate pentru a face dovada că îți aparțin.</translation>
+        <source>Sign messages with your Eskenas addresses to prove you own them</source>
+        <translation>Semnează mesajele cu adresa ta de Eskenas pentru a face dovada că îți aparțin.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Pirate addresses</source>
-        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de Pirate specificată.</translation>
+        <source>Verify messages to ensure they were signed with specified Eskenas addresses</source>
+        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de Eskenas specificată.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -214,12 +214,12 @@
         <translation>&amp;Ajutor</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and Pirate: URIs)</source>
-        <translation>Cerere plată (generează coduri QR și Pirate: URIs)</translation>
+        <source>Request payments (generates QR codes and Eskenas: URIs)</source>
+        <translation>Cerere plată (generează coduri QR și Eskenas: URIs)</translation>
     </message>
     <message>
-        <source>Open a Pirate: URI or payment request</source>
-        <translation>Deschide un Pirate: URI sau cerere de plată</translation>
+        <source>Open a Eskenas: URI or payment request</source>
+        <translation>Deschide un Eskenas: URI sau cerere de plată</translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -746,10 +746,10 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>pirate-core</name>
+    <name>eskenas-core</name>
     <message>
-        <source>Pirate Core</source>
-        <translation>Pirate Core</translation>
+        <source>Eskenas Core</source>
+        <translation>Eskenas Core</translation>
     </message>
     <message>
         <source>Information</source>

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Eskenas Wallet
 Comment=Full node UI wallet for Eskenas
-GenericName=TreasureChest
+GenericName=EskenasWallet
 Exec=/usr/local/bin/eskenas-qt %u
 Icon=eskenas.xpm
 Type=Application

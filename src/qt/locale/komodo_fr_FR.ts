@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Choisissez une adresse où envoyer les pirates</translation>
+        <translation>Choisissez une adresse où envoyer les Eskenass</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Choisissez une adresse où recevoir les pirates</translation>
+        <translation>Choisissez une adresse où recevoir les Eskenass</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -238,8 +238,8 @@
         <translation>Réindexer les blocs sur le disque...</translation>
     </message>
     <message>
-        <source>Send coins to a Pirate address</source>
-        <translation>Envoyer des pièces à une adresse Pirate</translation>
+        <source>Send coins to a Eskenas address</source>
+        <translation>Envoyer des pièces à une adresse Eskenas</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -262,8 +262,8 @@
         <translation>&amp;Vérification du message</translation>
     </message>
     <message>
-        <source>Pirate</source>
-        <translation>Pirate</translation>
+        <source>Eskenas</source>
+        <translation>Eskenas</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -290,8 +290,8 @@
         <translation>Crypter les clé privées qui appartiennent votre portefeuille</translation>
     </message>
     <message>
-        <source>Sign messages with your Pirate addresses to prove you own them</source>
-        <translation>Signer vos messages avec vos adresses Pirate pour prouver que vous les détenez</translation>
+        <source>Sign messages with your Eskenas addresses to prove you own them</source>
+        <translation>Signer vos messages avec vos adresses Eskenas pour prouver que vous les détenez</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -310,24 +310,24 @@
         <translation>Barre d'outils des onglets</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and Pirate: URIs)</source>
-        <translation>Demander des paiements (générer QR codes et Pirate: URIs)</translation>
+        <source>Request payments (generates QR codes and Eskenas: URIs)</source>
+        <translation>Demander des paiements (générer QR codes et Eskenas: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
         <translation>Montrer la liste des adresses d'envois utilisées et les étiquettes</translation>
     </message>
     <message>
-        <source>Open a Pirate: URI or payment request</source>
-        <translation>Ouvrir un Pirate: URI ou demande de paiement</translation>
+        <source>Open a Eskenas: URI or payment request</source>
+        <translation>Ouvrir un Eskenas: URI ou demande de paiement</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Options de ligne de commande</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Pirate network</source>
-        <translation><numerusform>%n connexion active au réseau Pirate</numerusform><numerusform>%n connexions actives au réseau Pirate</numerusform></translation>
+        <source>%n active connection(s) to Eskenas network</source>
+        <translation><numerusform>%n connexion active au réseau Eskenas</numerusform><numerusform>%n connexions actives au réseau Eskenas</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -712,8 +712,8 @@
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically open the Pirate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir le port du client Pirate automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
+        <source>Automatically open the Eskenas client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir le port du client Eskenas automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -872,8 +872,8 @@
         <translation>Montant</translation>
     </message>
     <message>
-        <source>Enter a Pirate address (e.g. %1)</source>
-        <translation>Entrer une adresse Pirate (e.g. %1)</translation>
+        <source>Enter a Eskenas address (e.g. %1)</source>
+        <translation>Entrer une adresse Eskenas (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1708,7 +1708,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>pirate-core</name>
+    <name>eskenas-core</name>
     <message>
         <source>Options:</source>
         <translation>Options :</translation>
@@ -1734,8 +1734,8 @@
         <translation>Impossible de démarrer le serveur HTTP. Voir le journal de débogage pour plus de détails.</translation>
     </message>
     <message>
-        <source>Pirate Core</source>
-        <translation>Pirate Core</translation>
+        <source>Eskenas Core</source>
+        <translation>Eskenas Core</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>

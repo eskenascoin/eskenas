@@ -978,8 +978,6 @@ std::string HelpExampleCli(const std::string& methodname, const std::string& arg
 {
     if ( ASSETCHAINS_SYMBOL[0] == 0 ) {
         return "> komodo-cli " + methodname + " " + args + "\n";
-    } else if ((strncmp(ASSETCHAINS_SYMBOL, "PIRATE", 6) == 0) ) {
-        return "> pirate-cli " + methodname + " " + args + "\n";
     } else if ((strncmp(ASSETCHAINS_SYMBOL, "ESKENAS", 7) == 0) ) {
         return "> eskenas-cli " + methodname + " " + args + "\n";
     } else {

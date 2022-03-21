@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PACKAGE_DIR="TreasureChest.app"
+PACKAGE_DIR="EskenasWallet.app"
 mkdir ${PACKAGE_DIR}
 mkdir ${PACKAGE_DIR}/Contents
 mkdir ${PACKAGE_DIR}/Contents/MacOS
@@ -71,4 +71,4 @@ do
 done
 
 
-create-dmg --volname "eskenas-qt-mac" --volicon "zcutil/res/logo.icns" --window-pos 200 120 --icon "TreasureChest.app" 200 190  --app-drop-link 600 185 --hide-extension "TreasureChest.app"  --window-size 800 400 --hdiutil-quiet --background zcutil/res/dmgbg.png  eskenas-qt-mac.dmg TreasureChest.app
+create-dmg --volname "eskenas-qt-mac" --volicon "zcutil/res/logo.icns" --window-pos 200 120 --icon "EskenasWallet.app" 200 190  --app-drop-link 600 185 --hide-extension "EskenasWallet.app"  --window-size 800 400 --hdiutil-quiet --background zcutil/res/dmgbg.png  eskenas-qt-mac.dmg EskenasWallet.app

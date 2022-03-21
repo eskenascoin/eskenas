@@ -130,8 +130,8 @@
         <translation>Промени &amp;лозинку...</translation>
     </message>
     <message>
-        <source>Send coins to a Pirate address</source>
-        <translation>Пошаљите новац на Pirate адресу</translation>
+        <source>Send coins to a Eskenas address</source>
+        <translation>Пошаљите новац на Eskenas адресу</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -442,7 +442,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>pirate-core</name>
+    <name>eskenas-core</name>
     <message>
         <source>Options:</source>
         <translation>Opcije</translation>

@@ -161,7 +161,7 @@ PirateOceanGUI::PirateOceanGUI(const PlatformStyle *_platformStyle, const Networ
     qApp->setPalette(newPal);
 
 
-    QString windowTitle = "Treasure Chest";
+    QString windowTitle = "Eskenas Wallet";
 #ifdef ENABLE_WALLET
     enableWallet = WalletModel::isWalletEnabled();
 #endif // ENABLE_WALLET
