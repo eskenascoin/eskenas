@@ -195,6 +195,7 @@ public:
         //vSeeds.push_back(CDNSSeedData("Komodostats","seed.komodostats.com")); // komodostats webworker01
         //vSeeds.push_back(CDNSSeedData("Bootstrap","bootstrap.arrr.black")); // geo optimized routing enabled chmex
         // https://github.com/DeckerSU/komodo_scripts/blob/master/dns-seeder-update-cloudflare.sh // To setup dns seeders
+        vSeeds.push_back(CDNSSeedData("eskenaschain.com","seeds.eskenaschain.com"));
         // TODO: we need more seed crawlers from other community members
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,60);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,85);

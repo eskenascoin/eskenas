@@ -142,7 +142,7 @@ PirateOceanGUI::PirateOceanGUI(const PlatformStyle *_platformStyle, const Networ
     QCoreApplication::setAttribute(Qt::AA_UseStyleSheetPropagationInWidgetStyles, true);
 
     //Set the theme in the settings
-    QString strTheme = settings.value("strTheme","armada").toString();
+    QString strTheme = settings.value("strTheme","dark").toString();
 
     //Set usingGUI to true so the wallet known the GUI is active
     LogPrintf("Setting usingGUI to true, %s\n", __func__);

@@ -1711,10 +1711,7 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
         useBootstrap = true;
     }
 
-    // disables bootstrap for now
-    useBootstrap = false;
-
-    if (useBootstrap) {
+     if (useBootstrap) {
         fReindex = false;
         //wipe transactions from wallet to create a clean slate
         OverrideSetArg("-zappwallettxes","2");

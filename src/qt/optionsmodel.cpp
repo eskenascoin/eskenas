@@ -81,8 +81,8 @@ void OptionsModel::Init(bool resetSettings)
     strThirdPartyTxUrls = settings.value("strThirdPartyTxUrls", "").toString();
 
     if (!settings.contains("strTheme"))
-        settings.setValue("strTheme", "armada");
-    strTheme = settings.value("strTheme", "armada").toString();
+        settings.setValue("strTheme", "dark");
+    strTheme = settings.value("strTheme", "dark").toString();
 
     // These are shared with the core or have a command-line parameter
     // and we want command-line parameters to overwrite the GUI settings.
