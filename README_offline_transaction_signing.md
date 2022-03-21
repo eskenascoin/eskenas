@@ -9,7 +9,7 @@
 
 2. Start up the Pirate treasure chest wallet on the on-line machine. Let it finish
    synchronising with the network over the internet.
-   The process can be speed up by first downloading the ARRR_bootstrap file and
+   The process can be speed up by first downloading the ESKN_bootstrap file and
    extracting it into the data directory of the application.
    On Linux its located in $HOME/.komodo/PIRATE under 'blocks' and 'chainstate'
 
@@ -167,7 +167,7 @@
    Amount:   The amount of coins to send.
    Memo:     Optionally a memo describing the transaction, like an invoice nr
    Transaction Fee: The amount of coin you want to pay the miners to process your transaction
-                    Suggested fee is 100 microARRR (uARRR)
+                    Suggested fee is 100 microESKN (uESKN)
    Press the 'Prepare off-line transaction' button. The confirmation window appears. Press
    'Yes' to continue. The 'off-line transaction signing' window will appear. In the top
    text area the prepared transaction data will be displayed under the heading: 'Unsigned transaction'.

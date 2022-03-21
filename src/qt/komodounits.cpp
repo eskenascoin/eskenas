@@ -21,9 +21,9 @@ KomodoUnits::KomodoUnits(QObject *parent):
 QList<KomodoUnits::Unit> KomodoUnits::availableUnits()
 {
     QList<KomodoUnits::Unit> unitlist;
-    unitlist.append(ARRR);
-    unitlist.append(mARRR);
-    unitlist.append(uARRR);
+    unitlist.append(ESKN);
+    unitlist.append(mESKN);
+    unitlist.append(uESKN);
     return unitlist;
 }
 
@@ -31,9 +31,9 @@ bool KomodoUnits::valid(int unit)
 {
     switch(unit)
     {
-    case ARRR:
-    case mARRR:
-    case uARRR:
+    case ESKN:
+    case mESKN:
+    case uESKN:
         return true;
     default:
         return false;
@@ -44,9 +44,9 @@ QString KomodoUnits::name(int unit)
 {
     switch(unit)
     {
-    case ARRR: return QString("ARRR");
-    case mARRR: return QString("mARRR");
-    case uARRR: return QString("uARRR");
+    case ESKN: return QString("ESKN");
+    case mESKN: return QString("mESKN");
+    case uESKN: return QString("uESKN");
     default: return QString("???");
     }
 }
@@ -55,9 +55,9 @@ QString KomodoUnits::description(int unit)
 {
     switch(unit)
     {
-    case ARRR: return QString("Coins");
-    case mARRR: return QString("Milli-Coins (1 / 1" THIN_SP_UTF8 "000)");
-    case uARRR: return QString("Micro-Coins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case ESKN: return QString("Coins");
+    case mESKN: return QString("Milli-Coins (1 / 1" THIN_SP_UTF8 "000)");
+    case uESKN: return QString("Micro-Coins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }
 }
@@ -66,9 +66,9 @@ qint64 KomodoUnits::factor(int unit)
 {
     switch(unit)
     {
-    case ARRR:  return 100000000;
-    case mARRR: return 100000;
-    case uARRR: return 100;
+    case ESKN:  return 100000000;
+    case mESKN: return 100000;
+    case uESKN: return 100;
     default:   return 100000000;
     }
 }
@@ -77,9 +77,9 @@ int KomodoUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case ARRR: return 8;
-    case mARRR: return 5;
-    case uARRR: return 2;
+    case ESKN: return 8;
+    case mESKN: return 5;
+    case uESKN: return 2;
     default: return 0;
     }
 }

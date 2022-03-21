@@ -43,7 +43,7 @@ class TxViewDelegate : public QAbstractItemDelegate
     Q_OBJECT
 public:
     explicit TxViewDelegate(const PlatformStyle *_platformStyle, QObject *parent=nullptr):
-        QAbstractItemDelegate(parent), unit(KomodoUnits::ARRR),
+        QAbstractItemDelegate(parent), unit(KomodoUnits::ESKN),
         platformStyle(_platformStyle)
     {
 

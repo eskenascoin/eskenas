@@ -1,42 +1,54 @@
-![Pirate cli build - Ubuntu 18.04](https://github.com/PirateNetwork/pirate/workflows/Pirate%20cli%20build%20-%20Ubuntu%2018.04/badge.svg)\
-![Pirate cli build - Ubuntu 20.04](https://github.com/PirateNetwork/pirate/workflows/Pirate%20cli%20build%20-%20Ubuntu%2020.04/badge.svg)\
-![Pirate cli build - Windows cross compile 18.04](https://github.com/PirateNetwork/pirate/workflows/Pirate%20cli%20build%20-%20Windows%20cross%20compile%2018.04/badge.svg)\
-![Pirate cli build - Windows cross compile 20.04](https://github.com/PirateNetwork/pirate/workflows/Pirate%20cli%20build%20-%20Windows%20cross%20compile%2020.04/badge.svg)\
-![Pirate cli build - MacOS 10.15 Catalina](https://github.com/PirateNetwork/pirate/workflows/Pirate%20cli%20build%20-%20MacOS%2010.15%20Catalina/badge.svg)\
-![Pirate Logo](https://i.ibb.co/F7Dgnxy/Pirate-Logo-Wordmark-Gold.png "Pirate Chain Logo")
+![Eskenas cli build - Ubuntu 18.04](https://github.com/EskenasCoin/eskenas/workflows/Eskenas%20cli%20build%20-%20Ubuntu%2018.04/badge.svg)\
+![Eskenas cli build - Ubuntu 20.04](https://github.com/EskenasCoin/eskenas/workflows/Eskenas%20cli%20build%20-%20Ubuntu%2020.04/badge.svg)\
+![Eskenas cli build - Windows cross compile 18.04](https://github.com/EskenasCoin/eskenas/workflows/Eskenas%20cli%20build%20-%20Windows%20cross%20compile%2018.04/badge.svg)\
+![Eskenas cli build - Windows cross compile 20.04](https://github.com/EskenasCoin/eskenas/workflows/Eskenas%20cli%20build%20-%20Windows%20cross%20compile%2020.04/badge.svg)\
+![Eskenas cli build - MacOS 10.15 Catalina](https://github.com/EskenasCoin/eskenas/workflows/Eskenas%20cli%20build%20-%20MacOS%2010.15%20Catalina/badge.svg)\
+![Eskenas Logo]( "Eskenas Coin Logo")
 
 
-## Pirate Chain
+## Eskenas Chain
 
-This is the official Pirate Chain sourcecode repository based on https://github.com/jl777/komodo.
+This is the official Eskenas Chain sourcecode repository.
 
 ## Development Resources
 
-- Pirate Chain Website: [https://pirate.black](https://pirate.black/)
+- Eskenas Chain Website: [https://eskenascoin.com](https://eskenascoin.com/)
 - Komodo Platform: [https://komodoplatform.com](https://komodoplatform.com/)
-- Pirate Blockexplorer: [https://explorer.pirate.black](https://pirate.black/)
-- Pirate Discord: [https://pirate.black/discord](https://pirate.black/discord)
+- Eskenas Blockexplorer: [https://explorer.eskenascoin.com](https://eskenascoin.com/)
+- Eskenas Discord: [https://eskenascoin.com/discord](https://eskenascoin.com/discord)
 - BTT ANN: [https://bitcointalk.org/index.php?topic=4979549.0](https://bitcointalk.org/index.php?topic=4979549.0/)
-- Mail: [marketing@pirate.black](mailto:marketing@pirate.black)
-- Support: [https://pirate.black/discord](https://pirate.black/discord)
-- API references & Dev Documentation: [https://docs.pirate.black](https://docs.pirate.black/)
-- Blog: [https://pirate.black/blog](https://pirate.black/blog/)
-- Whitepaper: [Pirate Chain Whitepaper](https://pirate.black/whitepaper)
+- Mail: [marketing@eskenascoin.com](mailto:marketing@eskenascoin.com)
+- Support: [https://eskenascoin.com/discord](https://eskenascoin.com/discord)
+- API references & Dev Documentation: [https://docs.eskenascoin.com](https://docs.eskenascoin.com/)
+- Blog: [https://eskenascoin.com/blog](https://eskenascoin.com/blog/)
+- Whitepaper: [Eskenas Chain Whitepaper](https://eskenascoin.com/whitepaper)
 
-## Komodo Platform Technologies Integrated In Pirate Chain
+## Komodo Platform Technologies Integrated In Eskenas Chain
 
-- Delayed Proof of Work (dPoW) - Additional security layer and Komodos own consensus algorithm  
+- Delayed Proof of Work (dPoW) - Additional security layer and Komodos own consensus algorithm (to be implemented)
 - zk-SNARKs - Komodo Platform's privacy technology for shielded transactions  
 
 
 ## Tech Specification
-- Max Supply: 200 million ARRR
+- Max Supply: 200 million ESKN
 - Block Time: 60s
-- Block Reward: 256 ARRR
-- Mining Algorithm: Equihash 200,9
+- Block Reward:
+
+ERA0: ends on block 64. blockreward: 0.00001 ESKN (premine)
+ERA1: ends on block 65. blockreward: 1921160 ESKN (premine)
+ERA2: ends on block 143. blockreward: 2000000 ESKN (premine)
+ERA3: ends on block 525000. blockreward: 0.001 ESKN
+ERA4: ends on block 1050000. blockreward: 0.002 ESKN
+ERA5: ends on block 1575000. blockreward: 0.003 ESKN
+ERA6: ends on block 2100000. blockreward: 0.004 ESKN
+ERA7: ends on block 2625000. blockreward: 0.005 ESKN
+ERA8: forever. from block 2625001, blockreward is 10 but is halved every 525000 blocks (approximately 4 years)
+
+- Mining Algorithm: Equihash 200,9 with Adaptive PoW developed by Komodo
+- Coinbase transactions can be shielded after 10 confirmations
 
 ## About this Project
-Pirate Chain (ARRR) is a 100% private send cryptocurrency. It uses a privacy protocol that cannot be compromised by other users activity on the network. Most privacy coins are riddled with holes created by optional privacy. Pirate Chain uses zk-SNARKs to shield 100% of the peer to peer transactions on the blockchain making for highly anonymous and private transactions.
+Eskenas Coin (ESKN) is a 100% private send cryptocurrency. It uses a privacy protocol that cannot be compromised by other users activity on the network. Most privacy coins are riddled with holes created by optional privacy. Eskenas Chain uses zk-SNARKs to shield 100% of the peer to peer transactions on the blockchain making for highly anonymous and private transactions.
 
 ## Getting started
 Build the code as described below. To see instructions on how to construct and send an offline transaction look
@@ -52,17 +64,17 @@ sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool libncurses-dev unzip git python zlib1g-dev wget bsdmainutils automake libboost-all-dev libssl-dev libprotobuf-dev protobuf-compiler libqrencode-dev libdb++-dev ntp ntpdate nano software-properties-common curl libevent-dev libcurl4-gnutls-dev cmake clang libsodium-dev -y
 ```
 
-### Build Pirate
+### Build Eskenas
 
 This software is based on zcash and considered experimental and is continuously undergoing heavy development.
 
-The dev branch is considered the bleeding edge codebase while the master-branch is considered tested (unit tests, runtime tests, functionality). At no point of time do the Pirate developers take any responsibility for any damage out of the usage of this software.
-Pirate builds for all operating systems out of the same codebase. Follow the OS specific instructions from below.
+The dev branch is considered the bleeding edge codebase while the master-branch is considered tested (unit tests, runtime tests, functionality). At no point of time do the Eskenas developers take any responsibility for any damage out of the usage of this software.
+Eskenas builds for all operating systems out of the same codebase. Follow the OS specific instructions from below.
 
 #### Linux
 ```shell
-git clone https://github.com/PirateNetwork/pirate --branch master
-cd pirate
+git clone https://github.com/EskenasCoin/eskenas --branch master
+cd eskenas
 # This step is not required for when using the Qt GUI
 ./zcutil/fetch-params.sh
 
@@ -82,8 +94,8 @@ brew update
 brew upgrade
 brew tap discoteq/discoteq; brew install flock
 brew install autoconf autogen automake gcc@8 binutilsprotobuf coreutils wget python3
-git clone https://github.com/PirateNetwork/pirate --branch master
-cd pirate
+git clone https://github.com/EskenasCoin/eskenas --branch master
+cd eskenas
 # This step is not required for when using the Qt GUI
 ./zcutil/fetch-params.sh
 
@@ -109,8 +121,8 @@ sudo update-alternatives --config x86_64-w64-mingw32-gcc
 sudo update-alternatives --config x86_64-w64-mingw32-g++
 # (configure to use POSIX variant)
 
-git clone https://github.com/PirateNetwork/pirate --branch master
-cd pirate
+git clone https://github.com/EskenasCoin/eskenas --branch master
+cd eskenas
 # This step is not required for when using the Qt GUI
 ./zcutil/fetch-params.sh
 
@@ -122,30 +134,30 @@ cd pirate
 #For qt GUI binaries
 ./zcutil/build-qt-win.sh -j8
 ```
-**Pirate is experimental and a work-in-progress.** Use at your own risk.
+**Eskenas is experimental and a work-in-progress.** Use at your own risk.
 
-To run the Pirate GUI wallet:
+To run the Eskenas GUI wallet:
 
 **Linux**
-`pirate-qt-linux`
+`eskenas-qt-linux`
 
 **OSX**
-`pirate-qt-mac`
+`eskenas-qt-mac`
 
 **Windows**
-`pirate-qt-win.exe`
+`eskenas-qt-win.exe`
 
 
-To run the daemon for Pirate Chain:  
+To run the daemon for Eskenas Chain:  
 `pirated`
-both pirated and pirate-cli are located in the src directory after successfully building  
+both pirated and eskenas-cli are located in the src directory after successfully building  
 
-To reset the Pirate Chain blockchain change into the *~/.komodo/PIRATE* data directory and delete the corresponding files by running `rm -rf blocks chainstate debug.log komodostate db.log` and restart daemon
+To reset the Eskenas Chain blockchain change into the *~/.komodo/PIRATE* data directory and delete the corresponding files by running `rm -rf blocks chainstate debug.log komodostate db.log` and restart daemon
 
 To initiate a bootstrap download on the GUI wallet add bootstrap=1 to the PIRATE.conf file.
 
 
-**Pirate is based on Komodo which is unfinished and highly experimental.** Use at your own risk.
+**Eskenas is based on Komodo which is unfinished and highly experimental.** Use at your own risk.
 
 License
 -------
