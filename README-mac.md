@@ -22,23 +22,23 @@ brew tap discoteq/discoteq; brew install flock autoconf autogen automake gcc@8 b
 Get all that installed, then run:
 
 ```shell
-git clone https://github.com/PirateNetwork/pirate.git
-cd pirate
+git clone https://github.com/EskenasCoin/eskenas.git
+cd eskenas
 ./zcutil/build-mac.sh
 ./zcutil/fetch-params.sh
 ```
 
 To build a distributable version of pirate then run the makeReleaseMac.sh script after building. This will fix the dependency references and move the komodod and komodo-cli binaries to the kmd/mac/pirate-cli directory along with the 6 libraries required for it to work properly.
 
-When you are done building, you need to create `PIRATE.conf` the Mac way. 
+When you are done building, you need to create `ESKENAS.conf` the Mac way. 
 
 ```shell
-mkdir ~/Library/Application\ Support/Komodo/PIRATE
-touch ~/Library/Application\ Support/Komodo/PIRATE/PIRATE.conf
-nano ~/Library/Application\ Support/Komodo/PIRATE/PIRATE.conf
+mkdir ~/Library/Application\ Support/Komodo/ESKENAS
+touch ~/Library/Application\ Support/Komodo/ESKENAS/ESKENAS.conf
+nano ~/Library/Application\ Support/Komodo/ESKENAS/ESKENAS.conf
 ```
 
-Add the following lines to the PIRATE.conf file:
+Add the following lines to the ESKENAS.conf file:
 
 ```shell
 rpcuser=dontuseweakusernameoryougetrobbed

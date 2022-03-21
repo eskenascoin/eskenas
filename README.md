@@ -73,7 +73,7 @@ Eskenas builds for all operating systems out of the same codebase. Follow the OS
 
 #### Linux
 ```shell
-git clone https://github.com/EskenasCoin/eskenas --branch master
+git clone https://github.com/EskenasCoin/eskenas --branch eskenas
 cd eskenas
 # This step is not required for when using the Qt GUI
 ./zcutil/fetch-params.sh
@@ -94,7 +94,7 @@ brew update
 brew upgrade
 brew tap discoteq/discoteq; brew install flock
 brew install autoconf autogen automake gcc@8 binutilsprotobuf coreutils wget python3
-git clone https://github.com/EskenasCoin/eskenas --branch master
+git clone https://github.com/EskenasCoin/eskenas --branch eskenas
 cd eskenas
 # This step is not required for when using the Qt GUI
 ./zcutil/fetch-params.sh
@@ -121,7 +121,7 @@ sudo update-alternatives --config x86_64-w64-mingw32-gcc
 sudo update-alternatives --config x86_64-w64-mingw32-g++
 # (configure to use POSIX variant)
 
-git clone https://github.com/EskenasCoin/eskenas --branch master
+git clone https://github.com/EskenasCoin/eskenas --branch eskenas
 cd eskenas
 # This step is not required for when using the Qt GUI
 ./zcutil/fetch-params.sh
