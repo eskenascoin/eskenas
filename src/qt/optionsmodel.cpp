@@ -181,7 +181,7 @@ void OptionsModel::Init(bool resetSettings)
         addOverriddenOption("-listen");
 
     if (!settings.contains("fEncrypted"))
-        settings.setValue("fEncrypted", false);
+        settings.setValue("fEncrypted", true); //eskenas changed from false to true 
     if (settings.value("fEncrypted").toBool() == true) {
         if (!SoftSetArg("-tlsenforcement", std::string("1"))) {
             addOverriddenOption("-tlsenforcement");
