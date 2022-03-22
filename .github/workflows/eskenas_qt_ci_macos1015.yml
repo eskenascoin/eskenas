@@ -32,7 +32,7 @@ jobs:
       - name: Build (macOS)
         run: |
           ./zcutil/build-qt-mac.sh -j4
-          zip --junk-paths eskenas-qt-osx src/eskenas-qt-mac
+          zip --junk-paths eskenas-qt-osx eskenas-qt-mac
       - name: Upload eskenas-qt-osx.zip as artifact
         uses: actions/upload-artifact@v1
         with:
