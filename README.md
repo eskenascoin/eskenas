@@ -34,23 +34,23 @@ This is the official Eskenas Chain sourcecode repository.
 - Block Time: 60s
 - Block Reward:
 
-ERA0: ends on block 64. blockreward: 0.00001 ESKN (premine)
+ERA0: ends before block 64. blockreward: 0.00001 ESKN (premine)
 
-ERA1: ends on block 65. blockreward: 1921160 ESKN (premine)
+ERA1: ends before block 65. blockreward: 1921160 ESKN (premine)
 
-ERA2: ends on block 143. blockreward: 2000000 ESKN (premine)
+ERA2: ends before block 143. blockreward: 2000000 ESKN (premine)
 
-ERA3: ends on block 525000. blockreward: 0.001 ESKN
+ERA3: ends before block 525000. blockreward: 0.01 ESKN
 
-ERA4: ends on block 1050000. blockreward: 0.002 ESKN
+ERA4: ends before block 1050000. blockreward: 0.02 ESKN
 
-ERA5: ends on block 1575000. blockreward: 0.003 ESKN
+ERA5: ends before block 1575000. blockreward: 0.03 ESKN
 
-ERA6: ends on block 2100000. blockreward: 0.004 ESKN
+ERA6: ends before block 2100000. blockreward: 0.04 ESKN
 
-ERA7: ends on block 2625000. blockreward: 0.005 ESKN
+ERA7: ends before block 2625000. blockreward: 0.05 ESKN
 
-ERA8: forever. from block 2625001, blockreward is 10 but is halved every 525000 blocks (approximately 4 years)
+ERA8: forever. from block 2625000, blockreward is 10 but is halved every 525000 blocks (approximately 4 years)
 
 - Mining Algorithm: Equihash 200,9 with Adaptive PoW developed by Komodo
 - Coinbase transactions can be shielded after 10 confirmations
