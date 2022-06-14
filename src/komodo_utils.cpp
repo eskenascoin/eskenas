@@ -1326,7 +1326,7 @@ void komodo_args(char *argv0)
         fprintf(stderr, "Cannot be STAKED and KMD notary at the same time!\n");
         StartShutdown();
     }
-    SoftSetArg("-ac_name", std::string("ESKENAS"));
+    SoftSetArg("-ac_name", std::string("ESKENAS1"));
     SoftSetArg("-ac_supply", std::string("0"));
     SoftSetArg("-ac_eras", std::string("9"));
     SoftSetArg("-ac_reward", std::string("1000,192116000000000,200000000000000,1000000,2000000,3000000,4000000,5000000,1000000000")); // https://docs.rs/zcash_primitives/latest/zcash_primitives/transaction/components/amount/struct.Amount.html // can't shield a too large coinbase and each of these large coinbase txns have to be shielded sepeartely
@@ -1337,8 +1337,8 @@ void komodo_args(char *argv0)
     SoftSetArg("-ac_adaptivepow", std::string("1"));
 
     //SoftSetArg("-addnode", std::string("zero.kolo.supernet.org"));
-    vector<string> ESKENASnodes = {"198.154.112.54","198.154.112.67"};
-    mapMultiArgs["-addnode"] = ESKENASnodes;
+    //vector<string> ESKENASnodes = {"198.154.112.54","198.154.112.67"};
+    //mapMultiArgs["-addnode"] = ESKENASnodes;
 	  name = GetArg("-ac_name","");
     if ( argv0 != 0 )
     {
@@ -1959,7 +1959,7 @@ void komodo_args(char *argv0)
         }
         else if ( strcmp("VRSC",ASSETCHAINS_SYMBOL) == 0 )
             dpowconfs = 0;
-        else if ( strcmp("ESKENAS",ASSETCHAINS_SYMBOL) != 0 && ASSETCHAINS_PRIVATE != 0 )
+        else if ( strcmp("ESKENAS1",ASSETCHAINS_SYMBOL) != 0 && strcmp("ESKENAS",ASSETCHAINS_SYMBOL) != 0 && ASSETCHAINS_PRIVATE != 0 )
         {
             fprintf(stderr,"-ac_private for a non-PIRATE chain is not supported. The only reason to have an -ac_private chain is for total privacy and that is best achieved with the largest anon set. PIRATE has that and it is recommended to just use PIRATE\n");
             StartShutdown();

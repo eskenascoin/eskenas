@@ -1708,7 +1708,8 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
 
     //Force Download- used for CLI
     if (GetBoolArg("-bootstrap", false) && GetArg("-bootstrap", "1") == "2") {
-        useBootstrap = true;
+       // useBootstrap = true;
+       useBootstrap = false;
     }
 
      if (useBootstrap) {

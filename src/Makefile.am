@@ -183,11 +183,11 @@ noinst_PROGRAMS =
 TESTS =
 
 #if BUILD_BITCOIND
-  bin_PROGRAMS += eskenasd
+  bin_PROGRAMS += eskenas1d
 #endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += eskenas-cli eskenas-tx
+  bin_PROGRAMS += eskenas1-cli eskenas1-tx
 endif
 if ENABLE_WALLET
   bin_PROGRAMS += wallet-utility
