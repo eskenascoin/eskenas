@@ -41,9 +41,9 @@ jobs:
         if: runner.os == 'Linux'
         run: |
           ./zcutil/build.sh -j$(nproc)
-          zip --junk-paths eskenas-linux src/eskenas1d src/eskenas1-cli
-      - name: Upload eskenas1-linux.zip as artifact
+          zip --junk-paths eskenas-linux src/eskenasd src/eskenas-cli
+      - name: Upload eskenas-linux.zip as artifact
         uses: actions/upload-artifact@v1
         with:
-          name: eskenas1-linux
-          path: ./eskenas1-linux.zip
+          name: eskenas-linux
+          path: ./eskenas-linux.zip
