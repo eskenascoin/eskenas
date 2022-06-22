@@ -1600,7 +1600,7 @@ UniValue z_createbuildinstructions(const UniValue& params, bool fHelp, const CPu
           "       {\n"
           "         \"address\":address     (string, required) Eskenas zaddr\n"
           "         \"amount\":amount       (numeric, required) The numeric amount in ESKN\n"
-          "         \"memo\": \"string\"    (string, optional) String memo in UTF8 ro Hexidecimal format\n"
+          "         \"memo\": \"string\"    (string, optional) String memo in UTF8 or Hexidecimal format\n"
           "         ,...\n"
           "       }\n"
           "     ]\n"
