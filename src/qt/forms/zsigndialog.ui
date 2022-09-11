@@ -183,7 +183,7 @@
            <bool>true</bool>
           </property>
           <property name="placeholderText">
-           <string>The signed transaction text will appear here if the transaction input is correct and you have the spending key (private key) of the 'from address' of the transaction. The signed output needs be transported back to the on-line wallet and send to the EskenasNetwork to complete the transaction.</string>
+           <string>The signed transaction text will appear here if the transaction input is correct and you have the spending key (private key) of the 'from address' of the transaction. The signed output needs be transported back to the on-line wallet and send to the Eskenascoin Network to complete the transaction.</string>
           </property>
          </widget>
         </item>
