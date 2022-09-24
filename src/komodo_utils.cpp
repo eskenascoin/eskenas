@@ -1337,7 +1337,7 @@ void komodo_args(char *argv0)
     SoftSetArg("-ac_adaptivepow", std::string("1"));
 
     //SoftSetArg("-addnode", std::string("zero.kolo.supernet.org"));
-    vector<string> ESKENASnodes = {"198.154.112.54","198.154.112.67"};
+    vector<string> ESKENASnodes = {"172.107.204.5","172.107.204.22","139.99.133.45","15.235.163.115"};
     mapMultiArgs["-addnode"] = ESKENASnodes;
 	  name = GetArg("-ac_name","");
     if ( argv0 != 0 )

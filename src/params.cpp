@@ -95,7 +95,7 @@ void initalizeMapParamBootstrap() {
 
   ParamFile bootFile;
   bootFile.name = "bootstrap";
-  bootFile.URL = "http://bootstrap.eskenaschain.com/ESKN-bootstrap.tar.gz";
+  bootFile.URL = "http://bootstrap.eskenascoin.com/ESKN-bootstrap.tar.gz";
   bootFile.verified = false;
   bootFile.path = GetDataDir() / "ESKN-bootstrap.tar.gz";
   bootFile.dlnow = 0;
