@@ -1,9 +1,8 @@
 ![Eskenas cli build - Ubuntu 18.04](https://github.com/EskenasCoin/eskenas/workflows/Eskenas%20cli%20build%20-%20Ubuntu%2018.04/badge.svg)\
 ![Eskenas cli build - Ubuntu 20.04](https://github.com/EskenasCoin/eskenas/workflows/Eskenas%20cli%20build%20-%20Ubuntu%2020.04/badge.svg)\
 ![Eskenas cli build - Windows cross compile 18.04](https://github.com/EskenasCoin/eskenas/workflows/Eskenas%20cli%20build%20-%20Windows%20cross%20compile%2018.04/badge.svg)\
-![Eskenas cli build - Windows cross compile 20.04](https://github.com/EskenasCoin/eskenas/workflows/Eskenas%20cli%20build%20-%20Windows%20cross%20compile%2020.04/badge.svg)\
 ![Eskenas cli build - MacOS 10.15 Catalina](https://github.com/EskenasCoin/eskenas/workflows/Eskenas%20cli%20build%20-%20MacOS%2010.15%20Catalina/badge.svg)\
-![Eskenas Logo]( "Eskenas Coin Logo")
+![Eskenas Logo](https://eskenascoin.com/public/front/images/logo.png)
 
 
 ## Eskenas Chain
