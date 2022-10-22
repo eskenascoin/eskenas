@@ -28,10 +28,10 @@ jobs:
           sudo update-alternatives --set x86_64-w64-mingw32-g++ /usr/bin/x86_64-w64-mingw32-g++-posix
       - name: Build (Windows)
         run: |
-          ./zcutil/build-win.sh -j$(nproc)
-         # zip --junk-paths eskenas-qt-win.zip 
+          ./zcutil/build-qt-win.sh -j$(nproc)
+          zip --junk-paths eskenas-qt-win eskenas-qt-win
       - name: Upload eskenas-qt-win.zip as artifact
         uses: actions/upload-artifact@v1
         with:
           name: eskenas-qt-win
-          path: ../eskenas-qt-win.zip
+          path: ./eskenas-qt-win.zip
