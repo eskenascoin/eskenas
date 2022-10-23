@@ -24,4 +24,5 @@ cd src/
 CC="${CC}" CXX="${CXX}" make "$@" V=1
 
 mv qt/komodo-qt.exe qt/eskenas-qt-win.exe
-cp qt/eskenas-qt-win.exe ../../eskenas-qt-win.exe
+cp qt/eskenas-qt-win.exe ../eskenas-qt-win.exe
+cd ..
