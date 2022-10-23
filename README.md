@@ -2,13 +2,13 @@
 ![Eskenas cli build - Ubuntu 20.04](https://github.com/EskenasCoin/eskenas/actions/workflows/pirate_ci_ubunutu2004.yml/badge.svg)\
 ![Eskenas cli build - Windows cross compile 18.04](https://github.com/EskenasCoin/eskenas/actions/workflows/pirate_ci_windows_cross1804.yml/badge.svg)\
 ![Eskenas cli build - Windows cross compile 20.04](https://github.com/EskenasCoin/eskenas/actions/workflows/pirate_ci_windows_cross2004.yml/badge.svg)\
-![Eskenas cli build - MacOS 10.15 Catalina](https://github.com/EskenasCoin/eskenas/actions/workflows/pirate_ci_macos1015.yml/badge.svg)\
+![Eskenas cli build - MacOS 10.15 Catalina](https://github.com/EskenasCoin/eskenas/actions/workflows/pirate_ci_macos1015.yml/badge.svg)
 
 ![Eskenas qt build - Ubuntu 18.04](https://github.com/EskenasCoin/eskenas/actions/workflows/eskenas_qt_ci_ubunutu1804.yml/badge.svg)\
 ![Eskenas qt build - Ubuntu 20.04](https://github.com/EskenasCoin/eskenas/actions/workflows/eskenas_qt_ci_ubunutu2004.yml/badge.svg)\
 ![Eskenas qt build - Windows cross compile 18.04](https://github.com/EskenasCoin/eskenas/actions/workflows/eskenas_qt_ci_windows_cross1804.yml/badge.svg)\
 ![Eskenas qt build - Windows cross compile 20.04](https://github.com/EskenasCoin/eskenas/actions/workflows/eskenas_qt_ci_windows_cross2004.yml/badge.svg)\
-![Eskenas qt build - MacOS 10.15 Catalina](https://github.com/EskenasCoin/eskenas/actions/workflows/eskenas_qt_ci_macos1015.yml/badge.svg)\
+![Eskenas qt build - MacOS 10.15 Catalina](https://github.com/EskenasCoin/eskenas/actions/workflows/eskenas_qt_ci_macos1015.yml/badge.svg)
 
 
 ![Eskenas Logo](https://eskenascoin.com/public/front/images/logo.png)
