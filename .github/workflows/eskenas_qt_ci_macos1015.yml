@@ -42,5 +42,5 @@ jobs:
       - name: Upload eskenas-qt-osx.dmg as artifact
         uses: actions/upload-artifact@v1
         with:
-          name: eskenas-qt-osx
-          path: ./eskenas-qt-osx.dmg
+          name: eskenas-qt-mac
+          path: ./eskenas-qt-mac.dmg
