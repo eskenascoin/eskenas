@@ -1,6 +1,6 @@
 # we are using separate workflow because CI producing test binaries with CPPFLAGS=-DTESTMODE
 
-name: Eskenas qt build - MacOS 10.15 Catalina
+name: Eskenas qt build - MacOS 11 Catalina
 
 
 on:
@@ -13,7 +13,7 @@ jobs:
 
   osx-build:
     name: OSX Build
-    runs-on: macos-12
+    runs-on: macos-11
     steps:
       - uses: actions/checkout@v2
       - name: Install deps (macOS)
